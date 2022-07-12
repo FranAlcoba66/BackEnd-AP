@@ -21,10 +21,10 @@ public class Habilidad {
     @NotNull
     private String nombre;
     
-    @NotNull
-    private String value;
     
-    @NotNull
+    private int porcentaje;
+    
+    
     private String logo;
     
 }

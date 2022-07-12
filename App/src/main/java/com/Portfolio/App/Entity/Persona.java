@@ -34,7 +34,10 @@ public class Persona {
     @Size(min = 1, max = 50, message = " no comple con la longitud")
     private String acercaDe;
 
-    @Size(min = 1, max = 50, message = " no comple con la longitud")
+    
     private String img;
+    
+   
+    private String banner;
 
 }

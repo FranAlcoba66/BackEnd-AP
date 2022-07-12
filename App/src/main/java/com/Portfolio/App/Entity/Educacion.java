@@ -33,4 +33,7 @@ public class Educacion {
     @NotNull
     @Size(min = 1, max = 50, message =" no comple con la longitud")
     private String fechaFin;
+    
+    
+    private String imagen;
 }
