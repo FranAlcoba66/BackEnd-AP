@@ -43,7 +43,7 @@ public class PersonaController {
     }
 
     //URL puerto/persona/editar/id/nombre&apellido&img
-    @PutMapping("personas/editar/{id}")
+    @PutMapping("/editar/{id}")
     public Persona editarPersona(@PathVariable Long id,
             @RequestBody Persona persona) {
         persona.setId(id);

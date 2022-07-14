@@ -31,7 +31,7 @@ public class Persona {
     private String titulo;
 
     @NotNull
-    @Size(min = 1, max = 50, message = " no comple con la longitud")
+    @Size(min = 1, max = 400, message = " no comple con la longitud")
     private String acercaDe;
 
     
