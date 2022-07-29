@@ -37,19 +37,11 @@ public class ContactoController {
     }
     
     @PutMapping ("contacto/editar/{id}")
-    public Contacto editarContacto(@PathVariable Long id,
-                                   @RequestParam("nombre") String nuevoNombre,
-                                   @RequestParam("apellido") String nuevoApellido,
-                                   @RequestParam("email") String nuevoEmail,
-                                   @RequestParam("mensaje") String nuevoMensaje)
-    {
-    Contacto contacto = icontactoService.findContacto(id);
-    contacto.setNombre(nuevoNombre);
-    contacto.setApellido(nuevoApellido);
-    contacto.setEmail(nuevoEmail);
-    contacto.setMensaje(nuevoMensaje);
-    
-    return contacto;
+    public Contacto editarContacto(@PathVariable("id") Long id,
+            @RequestBody Contacto contacto) {
+        contacto.setId(id);
+        icontactoService.saveContacto(contacto);
+        return contacto;
     }
 
 }

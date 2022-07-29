@@ -18,15 +18,8 @@ public class Contacto {
     private Long id;
 
     @NotNull
-    private String nombre;
+    private String link;
 
-    @NotNull
-    private String apellido;
-
-    @NotNull
-    private String email;
-
-    @NotNull
-    private String mensaje;
+  
 
 }
