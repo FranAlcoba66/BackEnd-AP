@@ -22,7 +22,9 @@ public class Proyecto {
     private  String titulo;
     @NotNull
     private String descripcion;
-    @NotNull 
+    
+    private String link;
+            
     private String img;
             
             
