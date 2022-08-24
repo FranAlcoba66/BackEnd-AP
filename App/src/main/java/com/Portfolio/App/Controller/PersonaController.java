@@ -18,7 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200/")
+//@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "*")
 @RequestMapping("/persona")
 public class PersonaController {
 
@@ -51,9 +52,12 @@ public class PersonaController {
         return persona;
     }
 
-    @GetMapping("/traer/perfil")
-    public Persona findPersona() {
-        return ipersonaService.findPersona((long) 1);
-    }
 
+     @GetMapping(path = {"/traer/{id}"})
+    public Persona findPersona(@PathVariable("id")long id){
+        return ipersonaService.findPersona(id);
+    }
+    
+    
+    
 }
