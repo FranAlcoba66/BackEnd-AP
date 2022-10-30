@@ -14,6 +14,5 @@ Se trata de una API REST realizada utilizando las tecnologías Java + Spring Boo
 - <b>MYSQL</b> Base de datos
 
 <b>Diagrama Entidad - Relación (DER)</b> de base de datos:
-[WhatsApp Image 2022-10-30 at 09 54 26](https://user-images.githubusercontent.com/102635184/198879608-6c92a88c-8cda-4adc-a7fd-7d9bdf776639.jpeg)
 
-
+![WhatsApp Image 2022-10-30 at 09 54 26](https://user-images.githubusercontent.com/102635184/198879683-5c0d8113-22cd-43ec-97a8-44d3f69b021a.jpeg)
