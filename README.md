@@ -8,7 +8,8 @@ Se trata de una API REST realizada utilizando las tecnologías Java + Spring Boo
 
 <h2>Herramientas utilizadas en el desarrollo</h2>
 
-- <b>Git/GitHub</b> Versionado de la app
+- <b>Git/GitHub</b> Versionado de la app![WhatsApp Image 2022-10-30 at 09 54 26](https://user-images.githubusercontent.com/102635184/198879608-6c92a88c-8cda-4adc-a7fd-7d9bdf776639.jpeg)
+
 - <b>API CRUD en Java + Springboot</b>
 - <b>JWT</b> Seguridad
 - <b>MYSQL</b> Base de datos
