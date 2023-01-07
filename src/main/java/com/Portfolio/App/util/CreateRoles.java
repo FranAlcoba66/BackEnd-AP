@@ -1,4 +1,4 @@
-
+/**
 package com.Portfolio.App.util;
 
 import com.Portfolio.App.Security.Entity.Rol;
@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
  *
  */
 
-
+/**
 @Component
 public class CreateRoles implements CommandLineRunner {
 
@@ -33,4 +33,4 @@ public class CreateRoles implements CommandLineRunner {
          
     }
 }
- 
+ */
