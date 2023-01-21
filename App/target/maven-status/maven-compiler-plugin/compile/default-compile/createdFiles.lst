@@ -14,6 +14,7 @@ com/Portfolio/App/Interface/IPersonaService.class
 com/Portfolio/App/Interface/IProyectoService.class
 com/Portfolio/App/Security/Dto/NuevoUsuario.class
 com/Portfolio/App/Repository/IEducacionRepository.class
+com/Portfolio/App/util/CreateRoles.class
 com/Portfolio/App/Repository/IHabilidadRepository.class
 com/Portfolio/App/Interface/IExperienciaService.class
 com/Portfolio/App/Repository/IProyectoRepository.class
