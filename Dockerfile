@@ -1,4 +1,4 @@
-FROM amazoncorretto:11-alpine-jdk
+FROM amazoncorretto:11
 MAINTAINER FRAN
 COPY target/App-0.0.1-SNAPSHOT.jar  App.jar
 ENTRYPOINT ["java","-jar","/App.jar"]
