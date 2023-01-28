@@ -8,4 +8,4 @@ ENV DB_PASSWORD="SXwiHayfOlguZILewPwV"
 COPY target/App-0.0.1-SNAPSHOT.jar  App.jar
 
 ENTRYPOINT ["java","-jar","/App.jar"]
-
+EXPOSE 3306
